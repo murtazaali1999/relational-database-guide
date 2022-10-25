@@ -1,7 +1,14 @@
 # relational-database-learning
 
 Q1: What is a database ?
-Ans: 
+Ans: Database is a storage system that allows you to store data/information. Its main operation is to store data. 
+To store data you can use spreadsheet / file system , But it has its cons to go with.
+
+Databases contains Tables, Tables contain reltations/attributes(columnns)
+
+There are to types of Databases: 
+1) RDB(Relational-Database)
+2) NOSQLDB(No-SQL-DB)
 
 Q2: What is a RDB ?
 Ans:
