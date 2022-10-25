@@ -36,24 +36,45 @@ Ans:
 - In RDB, Entites are mapped out to Tables , Attributes are mapped out to columns and an Entry is mapped out as Record/Rows.
 
 Q4: Differences between RDB and NOSQLDB ?
+
 Ans: 
+Differences between a RDB Based / SQL Based and NOSQL based database include :
+- RDB is in tabular form whilst NOSQL is in documents(A freeform,but records/entry are present)
+- Model in RDB is difficult to change but in NOSQL its easy to change 
+- In RDB relations are difficult to manage but in NOSQL their easier
 
 Q5: What is a RDMBS ?
+Ans: 
+RDBMS stands for Relational Database Management System, It is a management interface/application which allows you to use(query or perform different operations) your database/s via a CLI/GUI. e.g: Postgres/MYSQL/MSQL. 
+
+Q6: What is Entity ?
+Ans:
+Entity defined in the term of database, A thing that can be objectified or which has a individual presence, We can also say in another words, A thing/object which is generic or is of a generic type which can be specified via an entry, that can be further . In database we can use that entity as a table. e.g: Users Table / University Table / Product Table
+
+Q7: What is Attribute ?
+Ans:
+As an entity exists , An entity does have some properties/attributes that belongs to it. e.g: A User's table having properties like Name/Age/Social Security Number/Gender/Address etc.
+
+Q9: What is a Record/Entry ?
+Ans:
+When I enter an "Entry", It means a table has been populated or filled with record of some entity having some attributes. e.g: A User's table having Q7 / The above attributes/columns , A record of it can be represented as below:
+      
+           Name  Age    SSN    Gender  Address
+           Ali   11   5434395   Male   North Hampton Green Road House# 936
+
+Q8: Naming Conventions ?
 Ans:
 
-Q6: Naming Conventions ?
+Q9: What is Database Integrity ?
 Ans:
 
-Q7: What is Database Integrity ?
+Q10: What is One to One Relationship ?
 Ans:
 
-Q8: What is One to One ?
+Q11: What is One to Many Relationship ?
 Ans:
 
-Q9: What is One to Many ?
+Q12: What is Many to Many Relationship ?
 Ans:
 
-Q10: What is Many to Many ?
-Ans:
-
-Q11: What is Parent and Child Table ?
+Q13: What is Parent and Child Table ?
