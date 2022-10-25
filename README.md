@@ -1,6 +1,7 @@
 # Relational-Database-Guide 📝 
 
 Q1: What is a database ?
+
 Ans: Database is a storage system that allows you to store data/information in a ordered way. 
 To store data you can use spreadsheet / file system , But it has its cons to go with.
 
@@ -11,7 +12,9 @@ There are to types of Databases:
 2) NOSQLDB(No-SQL-DB)
 
 Q2: What is Database Design ?
+
 Ans: To design or to mapout your database in such way :
+
 1) Identify Requirments
 2) Identify Entities via Requirements
 3) Identify Attributes via Entities
@@ -20,7 +23,9 @@ Ans: To design or to mapout your database in such way :
 6) Map them out via a diagram tool or on paper e.g: UML Diagram/Class Diagram/Database Diagram
 
 Q3: What is a RDB ?
+
 Ans: 
+
 - RDB stands for Relational Database
 - Data is stored in the form of tabular or table form
 - A table consist of rows and columns,
