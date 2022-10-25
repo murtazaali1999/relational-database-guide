@@ -62,8 +62,13 @@ When I enter an "Entry", It means a table has been populated or filled with reco
            Name  Age    SSN    Gender  Address
            Ali   11   5434395   Male   North Hampton Green Road House# 936
 
-Q8: Naming Conventions ?
+Q8: Naming Convention in Column Naming ?
 Ans:
+This is the best practice to name columns in a table in RDB, 
+* Dont give spaces between column name words, Dont capitalize Words
+* Instead of giving spaces use _ between words
+e.g: name, street_address, social_security_number
+
 
 Q9: What is Database Integrity ?
 Ans:
