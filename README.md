@@ -85,8 +85,34 @@ What you would do is store the foreign key of the CreditCard Table Entry into A 
 
 Q11: What is One to Many Relationship ?
 Ans:
+In One to Many relationship, e.g: The above User and CreditCard tables would be used, But the only difference now is that a User can have multiple Credit-Cards, If we keep multiple credit card ids in the User table in a User's record, The difficulty would be that we have to iterate over the credit cards if we want to find a specific one, Leading to bad Database Design, Instead what were going to do is that for every record/entry in CreditCard table we're going to give the user's ID to it. Thats the best approach.
 
 Q12: What is Many to Many Relationship ?
 Ans:
+In database design, Keep in mind Many to Many relationship doesn't exit...What ? Yes, It doesn't. I'll explain via an example that should get you going, e.g: A male can have many woman as wives and A woman can have many male as husbands, Wait if you look at them individually they are One To Many in a true sense. Many to Many relationship cannot be mapped in database design, But One to Many and Many to One can be, As the premises given above. What we'll do , That to map One To Many and Many To One together we use a composite/intermediate table to solve the many to many problem. Like the following,
+
+           Male Table
+           Id Name  Age    SSN    Gender  Address
+           1  Ali   11   5434395   Male   North Hampton Green Road House# 936
+           2   Khan  15   5434395   Male   North Hampton Green Road House# 936
+           3   Zaheer  15   5434395   Male   North Hampton Green Road House# 936
+           
+           Male-Female Table(Composite Table)
+           Male-Id  Female-Id
+              1         2
+              1         1
+              1         3
+              2         1
+              2         3
+              
+           Female Table
+           Id Name  Age    SSN    Gender  Address
+           1   Amber   11   5434395   Male   North Hampton Green Road House# 936
+           2   Katty 15   5434395   Male   North Hampton Green Road House# 936
+           3   Zoha  15   5434395   Male   North Hampton Green Road House# 936
+
+
 
 Q13: What is Parent and Child Table ?
+Ans: 
+When creating/making a relationship, There  is always a parent table and a child table, Meaning one table that is a dependent(Child) on the a individual table(Parent), One more definition that one primary key of a table(Parent) is a foreign key of another table(Child). e.g: We will take the example of the One to One table of Q10, The CreditCard table becomes the Parent whilst the User table becomes the Child, The Individual and the Dependent.
