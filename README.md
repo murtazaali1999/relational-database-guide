@@ -44,18 +44,22 @@ Differences between a RDB Based / SQL Based and NOSQL based database include :
 - In RDB relations are difficult to manage but in NOSQL their easier
 
 Q5: What is a RDMBS ?
+
 Ans: 
 RDBMS stands for Relational Database Management System, It is a management interface/application which allows you to use(query or perform different operations) your database/s via a CLI/GUI. e.g: Postgres/MYSQL/MSQL. 
 
 Q6: What is Entity ?
+
 Ans:
 Entity defined in the term of database, A thing that can be objectified or which has a individual presence, We can also say in another words, A thing/object which is generic or is of a generic type which can be specified via an entry, that can be further . In database we can use that entity as a table. e.g: Users Table / University Table / Product Table
 
 Q7: What is Attribute ?
+
 Ans:
 As an entity exists , An entity does have some properties/attributes that belongs to it. e.g: A User's table having properties like Name/Age/Social Security Number/Gender/Address etc.
 
 Q9: What is a Record/Entry ?
+
 Ans:
 When I enter an "Entry", It means a table has been populated or filled with record of some entity having some attributes. e.g: A User's table having Q7 / The above attributes/columns , A record of it can be represented as below:
       
@@ -63,6 +67,7 @@ When I enter an "Entry", It means a table has been populated or filled with reco
            Ali   11   5434395   Male   North Hampton Green Road House# 936
 
 Q8: Naming Convention in Column Naming ?
+
 Ans:
 This is the best practice to name columns in a table in RDB, 
 * Dont give spaces between column name words, Dont capitalize Words
@@ -71,6 +76,7 @@ e.g: name, street_address, social_security_number
 
 
 Q9: What is Data Integrity ?
+
 Ans:
 Data Integrity can be defined as, The data present in tables should be updated / referenced and managed correctly.
 - Data Integrity -> That data remains atomic/updated in every way,
@@ -78,6 +84,7 @@ Data Integrity can be defined as, The data present in tables should be updated /
 - Domain Integrity -> The data/information that is present in the tables have constraints. e.g: name has varchar(20), that the name can only be of 20 characters 
 
 Q10: What is One to One Relationship ?
+
 Ans:
 In One to One relationship, e.g: There are two tables User and CreditCard, The relation made is that the user can have only one credit card. User Table has only information of Users and CreditCard Table has information about Credit-Cards, We can not store all the information in one table, That is a bad design.
 
