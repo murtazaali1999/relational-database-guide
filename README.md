@@ -70,11 +70,18 @@ This is the best practice to name columns in a table in RDB,
 e.g: name, street_address, social_security_number
 
 
-Q9: What is Database Integrity ?
+Q9: What is Data Integrity ?
 Ans:
+Data Integrity can be defined as, The data present in tables should be updated / referenced and managed correctly.
+- Data Integrity -> That data remains atomic/updated in every way,
+- Referential Integrity -> The relation made between tables must be correct and the references that are in another table are managed correctly
+- Domain Integrity -> The data/information that is present in the tables have constraints. e.g: name has varchar(20), that the name can only be of 20 characters 
 
 Q10: What is One to One Relationship ?
 Ans:
+In One to One relationship, e.g: There are two tables User and CreditCard, The relation made is that the user can have only one credit card. User Table has only information of Users and CreditCard Table has information about Credit-Cards, We can not store all the information in one table, That is a bad design.
+
+What you would do is store the foreign key of the CreditCard Table Entry into A User's Entry. That would reference the Credit Card assigned to the User.
 
 Q11: What is One to Many Relationship ?
 Ans:
