@@ -140,17 +140,23 @@ When creating/making a relationship, There  is always a parent table and a child
 
 Types of Keys:
 
+
 🌟Primary: A unique cloumn's value which is used to identify a row/record in a table.
+
 🌟Foreign: A primary key borrowed from and used from another table for relationship is called Foreign Key.
 
 🌟Super: A single or a set of multi key candidate keys which is able to identify a unique record.
+
 🌟Candidate: A key that has the potential of becoming a primary key.
 
 🌟Alternate: A key that can become a primary key but doesn't is called alternate key.
 
+
 🌟Composite: A key that is made up of multiple keys(individiually they may not be unique) for identifying a row/record.
 
+
 🌟Surrogate: A column's value that can identify a row and exists in the real world, e.g: user_id, 1 2 3 4.
+
 🌟Natural: A column's value that can identify a row and does not exist in the real world, e.g: Key K1 K2 K3 K4   (Key itself doesn't exist in a normal DB).
 
 🤔 Q16: What is Cardinality and Its Types ?
@@ -158,6 +164,9 @@ Types of Keys:
 🌟 Ans: Cardinality is defined as the relationship between the data of the two sets(tables). 
 
 Types of Cardinality:
+
 🌟One to One
+
 🌟One to Many
+
 🌟Many to Many
