@@ -1,5 +1,7 @@
 # Relational-Database-Guide 📝 
 
+##PART 1 - Beginner
+
 🤔Q1: What is a database ?
 
 🌟 Ans: Database is a storage system that allows you to store data/information in a ordered way. 
@@ -130,20 +132,32 @@ In database design, Keep in mind Many to Many relationship doesn't exit...What ?
 🌟 Ans: 
 When creating/making a relationship, There  is always a parent table and a child table, Meaning one table that is a dependent(Child) on the a individual table(Parent), One more definition that one primary key of a table(Parent) is a foreign key of another table(Child). e.g: We will take the example of the One to One table of Q10, The CreditCard table becomes the Parent whilst the User table becomes the Child, The Individual and the Dependent.
 
-#PART 2 - Intermediate
+##PART 2 - Intermediate
 
 🤔 Q15: What are Keys and Types of Keys ?
+
 🌟 Ans: Key/s is an attribute or set of attributes which helps in finding or identifying a row in a table. For finding a unique record in a table.
 
 Types of Keys:
 
 🌟Primary: A unique cloumn's value which is used to identify a row/record in a table.
 🌟Foreign: A primary key borrowed from and used from another table for relationship is called Foreign Key.
-🌟Candidate: A key that has the potential of becoming a primary key.
-🌟Alternate: A key that can become a primary key but doesn't is called alternate key.
-🌟Composite: A key that is made up of multiple keys(individiually they may not be unique) for identifying a row/record.
+
 🌟Super: A single or a set of multi key candidate keys which is able to identify a unique record.
+🌟Candidate: A key that has the potential of becoming a primary key.
+
+🌟Alternate: A key that can become a primary key but doesn't is called alternate key.
+
+🌟Composite: A key that is made up of multiple keys(individiually they may not be unique) for identifying a row/record.
+
 🌟Surrogate: A column's value that can identify a row and exists in the real world, e.g: user_id, 1 2 3 4.
 🌟Natural: A column's value that can identify a row and does not exist in the real world, e.g: Key K1 K2 K3 K4   (Key itself doesn't exist in a normal DB).
 
+🤔 Q16: What is Cardinality and Its Types ?
 
+🌟 Ans: Cardinality is defined as the relationship between the data of the two sets(tables). 
+
+Types of Cardinality:
+🌟One to One
+🌟One to Many
+🌟Many to Many
