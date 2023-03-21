@@ -33,6 +33,9 @@ There are to types of Databases:
 - A Column is also called Attribute
 - A database can have many tables
 - Tables have relationships with each other in RDB
+
+
+
 - In RDB, Entites are mapped out to Tables , Attributes are mapped out to columns and an Entry is mapped out as Record/Rows.
 
 🤔 Q4: Differences between RDB and NOSQLDB ?
@@ -140,7 +143,7 @@ Types of Keys:
 🌟Alternate: A key that can become a primary key but doesn't is called alternate key.
 🌟Composite: A key that is made up of multiple keys(individiually they may not be unique) for identifying a row/record.
 🌟Super: A single or a set of multi key candidate keys which is able to identify a unique record.
-
-
+🌟Surrogate: A column's value that can identify a row and exists in the real world, e.g: user_id, 1 2 3 4.
+🌟Natural: A column's value that can identify a row and does not exist in the real world, e.g: Key K1 K2 K3 K4   (Key itself doesn't exist in a normal DB).
 
 
