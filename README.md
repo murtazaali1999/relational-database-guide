@@ -170,3 +170,17 @@ Types of Cardinality:
 🌟One to Many
 
 🌟Many to Many
+
+
+🤔 Q17: What is Modality ?
+
+🌟 Ans: Modality is different from Cardinality, Modality tells if the relationship is required or optional. if it is required then "|" represented as 1 or at least one or one and only one And "0" meaning that the from a particular side of the relationship it is optional. Observe the option below.
+
+![Cardinality-modality-and-its-notation-Example](https://user-images.githubusercontent.com/61330248/226711454-6a06d188-debd-4833-80f5-85cc1239c3d4.png)
+
+
+
+
+
+
+
