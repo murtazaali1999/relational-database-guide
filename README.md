@@ -178,9 +178,41 @@ Types of Cardinality:
 
 ![Cardinality-modality-and-its-notation-Example](https://user-images.githubusercontent.com/61330248/226711454-6a06d188-debd-4833-80f5-85cc1239c3d4.png)
 
+🤔 Q17: What is Normalization and the types of normal forms ?
+
+🌟 Ans: It is to structure a relational database in accordance to the normal forms to reduce data redundancy(Repitition) and to improve data integrity(accuracy,completeness and reliablity of data).
+
+Types of Normal Forms:
+
+🌟1st Normal Form
+
+- No multi-valued field in a column
+- Atomic Valued all fields
+
+🌟2nd Normal Form
+
+- 1NF
+- No non-primary(candidate key) attribute/column should be dependant on a subset/minor part of a candidate key.
+
+![not-second-normal-form](https://user-images.githubusercontent.com/61330248/227183028-281967e9-5a7d-4c8c-be51-0e7cb5da81ec.jpg)
+
+Here the purchace location(non-primary) is dependant on store id, which violates 2NF, To solve this we create a second table which holds both store id and purchase location.
+
+![second-normal-form-2nf](https://user-images.githubusercontent.com/61330248/227183348-26c3badb-eefd-4283-8918-73e6eb182ca8.jpg)
 
 
+🌟3rd Normal Form
 
+- 2NF 
+- No non-primary attribute should be dependant on an another non-primary attribute which is dependant on a primary attribute.e.g:
 
+ A (A is Candidate-Key) (B/C are non-primary keys)
+ A->B (B is dependant on A, that is within 3NF)
+ B->C (Now 3NF is violated, because C is indirectly dependant on A)
 
+![not-third-normal-form](https://user-images.githubusercontent.com/61330248/227185027-dce027b5-76df-46b9-a942-8fc67266249d.jpg)
 
+Book-Id(Primary) derives Genre-ID(Non-Primary)
+then Genre-ID(Non-Primary) derives Genre-Type(Non-Primary)
+
+![third-normal-form-3nf](https://user-images.githubusercontent.com/61330248/227185954-f303c2f2-2b14-4a78-8da3-153f9ce5bbd9.jpg)
